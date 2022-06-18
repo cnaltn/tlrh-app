@@ -1,0 +1,134 @@
+.input {
+  width: 378px;
+  border-radius: 50px;
+  height: 42px;
+  background: inherit;
+  border: 1px solid;
+  border-image: linear-gradient(to right, #73e0a9, #5b68df) 1;
+  text-indent: 20px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.logoNav {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+
+  /* Primary */
+  background: linear-gradient(to right, #73e0a9 0%, #5b68df 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: default;
+}
+
+.navItems {
+  display: flex;
+  align-items: Center;
+  color: white;
+  gap: 40px;
+  font-weight: 500;
+}
+
+.navContainer {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  background-filter: blur(45px);
+  background: rgba(31, 29, 43, 1);
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+input:focus {
+  outline: none;
+}
+
+input,
+select,
+textarea {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: Center;
+  height: 80px;
+  width: 1440px;
+
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  z-index: 50;
+}
+
+.w-button {
+  padding: 8px 24px;
+  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  border-radius: 90px;
+}
+
+.a-button {
+  padding: 6px 24px;
+  border: 2px solid #73e0a9;
+  border-radius: 90px;
+  box-sizing: border-box;
+  transition: 0.3s all;
+}
+
+.a-button:hover {
+  border: 2px solid #5b68df;
+}
+
+@media screen and (max-width: 1280px) {
+  .sellg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .input {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navItems {
+    display: none;
+  }
+  .navbar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .sellg {
+    width: 100%;
+    grid-template-columns: 0fr;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+}

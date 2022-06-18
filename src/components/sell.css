@@ -1,0 +1,74 @@
+.sellgc {
+  width: 205px;
+  display: grid;
+  row-gap: 12px;
+  margin-top: 90px;
+}
+
+.sellH1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+
+  /* identical to box height */
+  text-align: center;
+
+  /* Whyte */
+  color: #ffffff;
+}
+
+.sellP {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+
+  /* Whyte */
+  color: #ffffff;
+}
+
+.sellg {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr 0fr;
+  justify-content: space-between;
+}
+
+.sellImg {
+  margin: 0 auto;
+  display: flex;
+}
+
+.sellSpan {
+  background: linear-gradient(to right, #73e0a9 0%, #5b68df 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+  .sellg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sellg {
+    width: 100%;
+    grid-template-columns: 0fr 0fr 0fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sellg {
+    width: 100%;
+    grid-template-columns: 0fr 0fr;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .sellg {
+    width: 100%;
+    grid-template-columns: 0fr;
+    justify-content: center;
+  }
+}

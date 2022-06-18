@@ -1,0 +1,179 @@
+.bottom {
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  gap: 20px;
+  align-items: center;
+  margin-top: 64px;
+  width: max-content;
+}
+
+.landingPage {
+  display: flex;
+  height: max-content;
+  background-color: #1f1d2b;
+}
+
+.landingTop {
+  display: grid;
+  padding-top: 15rem;
+}
+
+.right {
+  z-index: 20;
+  display: flex;
+}
+
+.button1 {
+  padding: 12px 48px;
+  color: white;
+  border: 3px solid #73e0a9;
+  border-radius: 90px;
+  transition: 0.3s all;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.button2 {
+  padding: 12px 50px;
+  color: white;
+  border: 3px solid #73e0a9;
+  border-radius: 90px;
+  transition: 0.3s all;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.button1:hover {
+  border: 3px solid #5b68df;
+}
+
+.button2:hover {
+  border: 3px solid #5b68df;
+}
+
+.landingLogo {
+  position: absolute;
+  width: max-content;
+  left: 1007px;
+  top: -150px;
+  z-index: 20;
+}
+
+.landingimg {
+  position: absolute;
+}
+
+.playBtn {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-top: 140px;
+  gap: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bgg {
+  position: absolute;
+  width: 100%;
+  opacity: 0.7;
+  height: max-content;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.bggimg {
+  display: flex;
+  position: relative;
+  width: 1920px;
+  left: 0px;
+  top: 0px;
+}
+
+.landingH1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 58px;
+  color: White;
+  margin-top: 16px;
+  width: max-content;
+  color: white;
+  z-index: -1;
+  z-index: 40;
+}
+
+.landingDesc {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  z-index: 10;
+  /* Whyte */
+  color: #ffffff;
+  width: max-content;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1280px) {
+  .landingH1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .landingH1 {
+    width: 100%;
+  }
+  .landingDesc {
+    width: 100%;
+  }
+  .landingimg {
+    display: none;
+  }
+  .landingH1 {
+    width: 100%;
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .landingTop {
+    padding-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landingH1 {
+    font-size: 33px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .bottom {
+    display: grid;
+    grid-template-columns: 0fr;
+    justify-items: center;
+    gap: 3rem;
+    margin: 0 auto;
+    margin-top: 64px;
+  }
+  .landingH1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .landingH1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .landingDesc {
+    font-size: 17px;
+  }
+  .landingTop {
+    padding-top: 8.2rem;
+  }
+}
