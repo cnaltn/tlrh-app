@@ -18,7 +18,7 @@ const Discover = () => {
             alt="discoverimg"
             src={discoverIMG}
           ></img>
-          <a className="discoverBtn" href="/">
+          <a className="discoverBtn" href="#a">
             <btn>Explore the marketplace</btn>
           </a>
         </bottom>

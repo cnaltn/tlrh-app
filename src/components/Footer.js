@@ -22,55 +22,55 @@ const Footer = () => {
             <flist className="flist">
               <flistchild className="flistChild">
                 <p className="company">Company</p>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   About
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Careers
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Ventures
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Grants
                 </a>
               </flistchild>
               <flistchild className="flistChild">
                 <p className="company">Stats</p>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Rankings
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Activity
                 </a>
               </flistchild>
               <flistchild className="flistChild">
                 <p className="company">Resources</p>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Help Center
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Gas-Free Marketplace
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Blog
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Newsletter
                 </a>
               </flistchild>
               <flistchild className="flistChild">
                 <p className="company">Follow us on</p>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   About
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Careers
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Ventures
                 </a>
-                <a className="fitems" href="#">
+                <a className="fitems" href="#a">
                   Grants
                 </a>
               </flistchild>
