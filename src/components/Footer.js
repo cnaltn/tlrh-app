@@ -9,7 +9,7 @@ const Footer = () => {
         <fmain className="fmain">
           <left className="fleft">
             <flogo>
-              <img src={navLogo}></img>
+              <img alt="navLogo" src={navLogo}></img>
             </flogo>
             <h2 className="brandName">MemoNFT</h2>
             <p className="fdesc">

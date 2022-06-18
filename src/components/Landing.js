@@ -31,26 +31,26 @@ const Landing = () => {
 
         <bottom className="bottom">
           <Button1>
-            <a className="button1" href="#">
+            <a className="button1" href="/">
               Explore
             </a>
           </Button1>
           <Button2>
-            <a className="button2" href="#">
+            <a className="button2" href="/">
               Create
             </a>
           </Button2>
         </bottom>
         <play className="playBtn">
-          <img src={playButton}></img>
+          <img alt="playBtn" src={playButton}></img>
           Learn more about MEMONFT
         </play>
       </div>
       <right className="landingLogo">
-        <img className="landingimg" src={landingLogo2}></img>
+        <img alt="landingimg" className="landingimg" src={landingLogo2}></img>
       </right>
       <bgg className="bgg">
-        <img className="bggimg" src={bgg1}></img>
+        <img alt="bggimg" className="bggimg" src={bgg1}></img>
       </bgg>
     </Page>
   );

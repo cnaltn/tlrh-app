@@ -9,7 +9,7 @@ const Sell = () => {
         <top className="top1">Create and sell your NFTs</top>
         <grid className="sellg">
           <gridchild className="sellgc">
-            <img className="sellImg" src={m1}></img>
+            <img alt="sellimg" className="sellImg" src={m1}></img>
             <h1 className="sellH1">Set up your wallet</h1>
             <p className="sellP">
               Once you’ve set up your wallet of choice, connect it to OpenSea by
@@ -18,7 +18,7 @@ const Sell = () => {
             </p>
           </gridchild>
           <gridchild className="sellgc">
-            <img className="sellImg" src={m1}></img>
+            <img alt="sellimg2" className="sellImg" src={m1}></img>
             <h1 className="sellH1">Create your collection</h1>
             <p className="sellP">
               Click <span className="sellSpan">My Collections</span> and set up
@@ -27,7 +27,7 @@ const Sell = () => {
             </p>
           </gridchild>
           <gridchild className="sellgc">
-            <img className="sellImg" src={m1}></img>
+            <img alt="sellimg3" className="sellImg" src={m1}></img>
             <h1 className="sellH1">Add your NFTs</h1>
             <p className="sellP">
               <span className="sellSpan">Upload your work </span>(image, video,
@@ -36,7 +36,7 @@ const Sell = () => {
             </p>
           </gridchild>
           <gridchild className="sellgc">
-            <img className="sellImg" src={m1}></img>
+            <img alt="sellimg4" className="sellImg" src={m1}></img>
             <h1 className="sellH1">List them for sale</h1>
             <p className="sellP">
               Choose between auctions, fixed-price listings, and declining-price

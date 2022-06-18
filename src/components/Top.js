@@ -28,10 +28,10 @@ const Top = () => {
         </top>
         <grid className="gridTop">
           <gridchild className="childgrid">
-            <img className="mini_" src={top8}></img>
+            <img alt="mini1" className="mini_" src={top8}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini1}></img>
+                <img alt="mini20" src={mini1}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>
@@ -43,10 +43,10 @@ const Top = () => {
             <amount className="amount">0.218 ETH</amount>
           </gridchild>
           <gridchild className="childgrid">
-            <img className="mini_" src={top2}></img>
+            <img alt="mini2" className="mini_" src={top2}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini3}></img>
+                <img alt="mini19" src={mini3}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>
@@ -58,10 +58,10 @@ const Top = () => {
             <amount className="amount">0.218 ETH</amount>
           </gridchild>
           <gridchild className="childgrid">
-            <img className="mini_" src={top6}></img>
+            <img alt="mini3" className="mini_" src={top6}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini7}></img>
+                <img alt="mini16" src={mini7}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>
@@ -73,10 +73,10 @@ const Top = () => {
             <amount className="amount">0.218 ETH</amount>
           </gridchild>
           <gridchild className="childgrid">
-            <img className="mini_" src={top4}></img>
+            <img alt="mini4" className="mini_" src={top4}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini5}></img>
+                <img alt="mini15" src={mini5}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>
@@ -88,10 +88,10 @@ const Top = () => {
             <amount className="amount">0.218 ETH</amount>
           </gridchild>
           <gridchild className="childgrid">
-            <img className="mini_" src={top1}></img>
+            <img alt="mini4" className="mini_" src={top1}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini2}></img>
+                <img alt="mini12" src={mini2}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>
@@ -103,10 +103,10 @@ const Top = () => {
             <amount className="amount">0.218 ETH</amount>
           </gridchild>
           <gridchild className="childgrid">
-            <img className="mini_" src={top7}></img>
+            <img alt="mini5" className="mini_" src={top7}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini8}></img>
+                <img alt="mini8" src={mini8}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>
@@ -118,10 +118,10 @@ const Top = () => {
             <amount className="amount">0.218 ETH</amount>
           </gridchild>
           <gridchild className="childgrid">
-            <img className="mini_" src={top3}></img>
+            <img alt="mini7" className="mini_" src={top3}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini4}></img>
+                <img alt="mini8" src={mini4}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>
@@ -133,10 +133,10 @@ const Top = () => {
             <amount className="amount">0.218 ETH</amount>
           </gridchild>
           <gridchild className="childgrid">
-            <img className="mini_" src={top5}></img>
+            <img alt="mini10" className="mini_" src={top5}></img>
             <dsection className="dsec">
               <left className="left">
-                <img src={mini6}></img>
+                <img alt="mini11" src={mini6}></img>
               </left>
               <right>
                 <mainhead className="mainhead">World of Women Galaxy</mainhead>

@@ -13,8 +13,12 @@ const Discover = () => {
           </p>
         </top>
         <bottom className="discoverBot">
-          <img className="discoverimg" src={discoverIMG}></img>
-          <a className="discoverBtn" href="#">
+          <img
+            className="discoverimg"
+            alt="discoverimg"
+            src={discoverIMG}
+          ></img>
+          <a className="discoverBtn" href="/">
             <btn>Explore the marketplace</btn>
           </a>
         </bottom>

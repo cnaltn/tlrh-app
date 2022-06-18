@@ -21,7 +21,7 @@ const Header = () => {
     <Container className="navContainer">
       <Navbar className="navbar">
         <NavLogo className="navLogo">
-          <img src={navLogo}></img>
+          <img alt="navLogo1" src={navLogo}></img>
           <h1 className="logoNav">MEMONFT</h1>
         </NavLogo>
         <NavInput>
@@ -32,13 +32,13 @@ const Header = () => {
           ></input>
         </NavInput>
         <NavItems className="navItems">
-          <a href="#">Explore</a>
-          <a href="#">Activity</a>
-          <a href="#">Resources</a>
-          <a className="a-button" href="#">
+          <a href="/">Explore</a>
+          <a href="/">Activity</a>
+          <a href="/">Resources</a>
+          <a className="a-button" href="/">
             Account
           </a>
-          <a className="w-button" href="#">
+          <a className="w-button" href="/">
             Connect Wallet
           </a>
         </NavItems>

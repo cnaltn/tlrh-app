@@ -25,7 +25,7 @@ const Gems = () => {
         </top>
         <grid className="grid">
           <gridchild className="gridchild">
-            <img src={img_1}></img>
+            <img alt="img_1" src={img_1}></img>
             <img className="ellipse" src={ellipse}></img>
             <h2 className="head2">ZombieClub Token</h2>
             <p className="p">
@@ -39,8 +39,8 @@ const Gems = () => {
             </p1>
           </gridchild>
           <gridchild className="gridchild">
-            <img src={img_2}></img>
-            <img className="ellipse" src={ellipse2}></img>
+            <img alt="img_2" src={img_2}></img>
+            <img alt="ellipse2" className="ellipse" src={ellipse2}></img>
             <h2 className="head2">Meta Bounty Hunters</h2>
             <p className="p">
               Created by <span className="span">B30898</span>
@@ -53,8 +53,8 @@ const Gems = () => {
             </p1>
           </gridchild>
           <gridchild className="gridchild">
-            <img src={img_3}></img>
-            <img className="ellipse" src={ellipse3}></img>
+            <img alt="img_3" src={img_3}></img>
+            <img alt="ellipse3" className="ellipse" src={ellipse3}></img>
             <h2 className="head2">Treeverse Plots</h2>
             <p className="p">
               Created by <span className="span">Treeverse_Wallet</span>
