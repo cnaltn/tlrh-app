@@ -31,12 +31,12 @@ const Landing = () => {
 
         <bottom className="bottom">
           <Button1>
-            <a className="button1" href="/">
+            <a className="button1" href="#a">
               Explore
             </a>
           </Button1>
           <Button2>
-            <a className="button2" href="/">
+            <a className="button2" href="#a">
               Create
             </a>
           </Button2>

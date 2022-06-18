@@ -32,13 +32,13 @@ const Header = () => {
           ></input>
         </NavInput>
         <NavItems className="navItems">
-          <a href="/">Explore</a>
-          <a href="/">Activity</a>
-          <a href="/">Resources</a>
-          <a className="a-button" href="/">
+          <a href="#a">Explore</a>
+          <a href="#a">Activity</a>
+          <a href="#a">Resources</a>
+          <a className="a-button" href="#a">
             Account
           </a>
-          <a className="w-button" href="/">
+          <a className="w-button" href="#a">
             Connect Wallet
           </a>
         </NavItems>
