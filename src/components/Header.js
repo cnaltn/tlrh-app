@@ -22,24 +22,24 @@ const Header = () => {
       <Navbar className="navbar">
         <NavLogo className="navLogo">
           <img alt="navLogo1" src={navLogo}></img>
-          <h1 className="logoNav">MEMONFT</h1>
+          <h1 className="logoNav">The Last Revenge of Horse</h1>
         </NavLogo>
-        <NavInput>
+        {/* <NavInput>
           <input
             type="text"
             placeholder="Search items, collections and accounts"
             className="input"
           ></input>
-        </NavInput>
+        </NavInput> */}
         <NavItems className="navItems">
-          <a href="#a">Explore</a>
-          <a href="#a">Activity</a>
-          <a href="#a">Resources</a>
-          <a className="a-button" href="#a">
+          <a href="#a">Hidden Gems</a>
+          <a href="#a">Top Collections</a>
+          <a href="#a">Discover</a>
+          {/* <a className="a-button" href="#a">
             Account
-          </a>
+          </a> */}
           <a className="w-button" href="#a">
-            Connect Wallet
+            Explore the Marketplace
           </a>
         </NavItems>
       </Navbar>

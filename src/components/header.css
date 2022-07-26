@@ -15,8 +15,8 @@
 
 .logoNav {
   color: white;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 22px;
 
   /* Primary */
   background: linear-gradient(to right, #73e0a9 0%, #5b68df 100%);
@@ -130,5 +130,8 @@ textarea {
   .navbar {
     padding-left: 1.125rem;
     padding-right: 1.125rem;
+  }
+  .logoNav{
+font-size: 18px;
   }
 }

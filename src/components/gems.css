@@ -20,6 +20,14 @@
   width: 100%;
 }
 
+.gems_img{
+  display: flex;
+  width: 286px;
+  height: 286px;
+  border-radius: 35px;
+  border: 2px solid #73e0a9;
+}
+
 .gridchild {
   padding: 1rem 1rem;
   border: 2px solid #73e0a9;

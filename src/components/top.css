@@ -36,6 +36,9 @@
 .mini_ {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  width: 286px;
+  height: 286px;
+  
 }
 
 .bsection {

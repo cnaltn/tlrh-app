@@ -11,7 +11,7 @@ const Footer = () => {
             <flogo>
               <img alt="navLogo" src={navLogo}></img>
             </flogo>
-            <h2 className="brandName">MemoNFT</h2>
+            <h2 className="brandName">The Last Revenge of Horse</h2>
             <p className="fdesc">
               TheFund is the world's first non-fungible token (NFT) marketplace
               for both digital and physical assets
@@ -62,23 +62,23 @@ const Footer = () => {
               <flistchild className="flistChild">
                 <p className="company">Follow us on</p>
                 <a className="fitems" href="#a">
-                  About
+                  Instagram
                 </a>
                 <a className="fitems" href="#a">
-                  Careers
+                  Twitter
                 </a>
                 <a className="fitems" href="#a">
-                  Ventures
+                  Facebook
                 </a>
                 <a className="fitems" href="#a">
-                  Grants
+                  Discord
                 </a>
               </flistchild>
             </flist>
           </right>
         </fmain>
         <copyright className="fcpy">
-          MEMONFT 2021-2022 all rights reserved. Codded with 💛 by Can Altun.
+          The Last Revenge of Horse 2021-2022 all rights reserved. Codded with 💛 by Can Altun.
         </copyright>
       </container>
     </page>
