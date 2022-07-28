@@ -13,8 +13,7 @@ const Footer = () => {
             </flogo>
             <h2 className="brandName">The Last Revenge of Horse</h2>
             <p className="fdesc">
-              TheFund is the world's first non-fungible token (NFT) marketplace
-              for both digital and physical assets
+              The Last Revenge of Horse has 10,000+ NFTs, you can always find which is best for you. Take your time and look our marketplace and follow our socials. 
             </p>
           </left>
 
