@@ -21,11 +21,10 @@ const Landing = () => {
       <div className="container">
         <top className="landingTop">
           <UpDesc className="landingDesc">
-            Exclusive NFT for Digital and Real-world Assets
+            Welcome to The Last Revenge of Horse (TLRH)
           </UpDesc>
           <HeadLine className="landingH1">
-            The world's first non-fungible token (NFT) marketplace<br></br> for
-            both digital and physical assets.
+          The Last Revenge of Horse (TLRH) has 10,000+ NFTs<br></br> You can always find which is best for you.
           </HeadLine>
         </top>
 
@@ -35,15 +34,15 @@ const Landing = () => {
               Explore
             </a>
           </Button1>
-          <Button2>
+          {/* <Button2>
             <a className="button2" href="#a">
               Create
             </a>
-          </Button2>
+          </Button2> */}
         </bottom>
         <play className="playBtn">
           <img alt="playBtn" src={playButton}></img>
-          Learn more about MEMONFT
+          Learn More About TLRH
         </play>
       </div>
       <right className="landingLogo">
