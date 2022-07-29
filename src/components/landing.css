@@ -13,6 +13,9 @@
   background-color: #1f1d2b;
 }
 
+.deneme {
+}
+
 .landingTop {
   display: grid;
   padding-top: 15rem;
@@ -58,7 +61,7 @@
   width: max-content;
   left: 1007px;
   top: -150px;
-  z-index: 20;
+  z-index: 15;
 }
 
 .landingimg {
@@ -103,7 +106,7 @@
   width: max-content;
   color: white;
   z-index: -1;
-  z-index: 40;
+  z-index: 50;
 }
 
 .landingDesc {

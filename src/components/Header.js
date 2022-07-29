@@ -32,9 +32,9 @@ const Header = () => {
           ></input>
         </NavInput> */}
         <NavItems className="navItems">
-          <a href="#a">Hidden Gems</a>
-          <a href="#a">Top Collections</a>
-          <a href="#a">Discover</a>
+          <a href="#hidden-gems">Hidden Gems</a>
+          <a href="#top-collections">Top Collections</a>
+          <a href="#discover">Discover</a>
           {/* <a className="a-button" href="#a">
             Account
           </a> */}

@@ -1,0 +1,28 @@
+.title {
+}
+.img {
+  height: 100px;
+  width: 50px;
+  border-radius: 35px;
+}
+
+.section {
+  background-color: #1f1d2b;
+  padding-top: 5rem;
+}
+
+.owl_ {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  z-index: 66;
+  width: 100%;
+}
+
+.container2 {
+  max-width: 1440px;
+}
+
+.owl-carousel {
+}

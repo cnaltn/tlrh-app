@@ -20,7 +20,7 @@ import mini8 from "../image/mini8.png";
 
 const Top = () => {
   return (
-    <page className="pageTop">
+    <page className="pageTop" id="top-collections">
       <container className="container">
         <top class="top1">
           Top Collections

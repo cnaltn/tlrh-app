@@ -1,10 +1,12 @@
 import React from "react";
 import "./gems.css";
+import Slider from "react-slick";
 import { Page } from "./Landing";
 import styled from "styled-components";
 import img_1 from "../image/top2.jpg";
 import img_2 from "../image/top9.jpg";
 import img_3 from "../image/top10.jpg";
+
 import ellipse from "../image/ellipse1.png";
 import ellipse2 from "../image/ellipse2.png";
 import ellipse3 from "../image/ellipse3.png";
@@ -17,7 +19,7 @@ const Page_ = styled(Page)`
 
 const Gems = () => {
   return (
-    <Page_ className="gemsPage">
+    <Page_ className="gemsPage" id="hidden-gems">
       <container className="container">
         <top class="top1">
           Hidden Gems
@@ -29,13 +31,13 @@ const Gems = () => {
             <img className="ellipse" src={ellipse}></img>
             <h2 className="head2">The Last Revenge of Horse</h2>
             <p className="p">
-              Created by <span className="span">Fellowship of the Mete Bilgili</span>
+              Created by{" "}
+              <span className="span">Fellowship of the Mete Bilgili</span>
             </p>
             <p1 className="p1">
-              The Last Revenge of Horse is a collection of 10,000 NFTs. Each
-              NFT is unique and resides on the Ethereum blockchain.
-              Your Last Revenge of Horse NFT will double as your
-              club membership.
+              The Last Revenge of Horse is a collection of 10,000 NFTs. Each NFT
+              is unique and resides on the Ethereum blockchain. Your Last
+              Revenge of Horse NFT will double as your club membership.
             </p1>
           </gridchild>
           <gridchild className="gridchild">
@@ -43,13 +45,13 @@ const Gems = () => {
             <img alt="ellipse2" className="ellipse" src={ellipse2}></img>
             <h2 className="head2">The Last Revenge of Horse</h2>
             <p className="p">
-              Created by <span className="span">Fellowship of the Mete Bilgili</span>
+              Created by{" "}
+              <span className="span">Fellowship of the Mete Bilgili</span>
             </p>
             <p1 className="p1">
-              The Last Revenge of Horse is a collection of 10,000 NFTs. Each
-              NFT is unique and resides on the Ethereum blockchain.
-              Your Last Revenge of Horse NFT will double as your
-              club membership.
+              The Last Revenge of Horse is a collection of 10,000 NFTs. Each NFT
+              is unique and resides on the Ethereum blockchain. Your Last
+              Revenge of Horse NFT will double as your club membership.
             </p1>
           </gridchild>
           <gridchild className="gridchild">
@@ -57,13 +59,13 @@ const Gems = () => {
             <img alt="ellipse3" className="ellipse" src={ellipse3}></img>
             <h2 className="head2">The Last Revenge of Horse</h2>
             <p className="p">
-              Created by <span className="span">Fellowship of the Mete Bilgili</span>
+              Created by{" "}
+              <span className="span">Fellowship of the Mete Bilgili</span>
             </p>
             <p1 className="p1">
-              The Last Revenge of Horse is a collection of 10,000 NFTs. Each
-              NFT is unique and resides on the Ethereum blockchain.
-              Your Last Revenge of Horse NFT will double as your
-              club membership.
+              The Last Revenge of Horse is a collection of 10,000 NFTs. Each NFT
+              is unique and resides on the Ethereum blockchain. Your Last
+              Revenge of Horse NFT will double as your club membership.
             </p1>
           </gridchild>
         </grid>

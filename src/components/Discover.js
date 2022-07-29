@@ -4,7 +4,7 @@ import discoverIMG from "../image/Dscvr.png";
 
 const Discover = () => {
   return (
-    <page className="pageDiscover">
+    <page className="pageDiscover" id="discover">
       <container className="container">
         <top>
           <h1 className="headDscvr">Discover the latest #TOPNFT</h1>
