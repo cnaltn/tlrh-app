@@ -23,12 +23,12 @@ const Gems = () => {
       <container className="container">
         <top class="top1">
           Hidden Gems
-          <view className="view">View All</view>
+          {/* <view className="view">View All</view> */}
         </top>
         <grid className="grid">
           <gridchild className="gridchild">
             <img alt="img_1" className="gems_img" src={img_1}></img>
-            <img className="ellipse" src={ellipse}></img>
+            {/* <img className="ellipse" src={ellipse}></img> */}
             <h2 className="head2">The Last Revenge of Horse</h2>
             <p className="p">
               Created by{" "}
@@ -42,7 +42,7 @@ const Gems = () => {
           </gridchild>
           <gridchild className="gridchild">
             <img alt="img_2" className="gems_img" src={img_2}></img>
-            <img alt="ellipse2" className="ellipse" src={ellipse2}></img>
+            {/* <img alt="ellipse2" className="ellipse" src={ellipse2}></img> */}
             <h2 className="head2">The Last Revenge of Horse</h2>
             <p className="p">
               Created by{" "}
@@ -56,7 +56,7 @@ const Gems = () => {
           </gridchild>
           <gridchild className="gridchild">
             <img alt="img_3" className="gems_img" src={img_3}></img>
-            <img alt="ellipse3" className="ellipse" src={ellipse3}></img>
+            {/* <img alt="ellipse3" className="ellipse" src={ellipse3}></img> */}
             <h2 className="head2">The Last Revenge of Horse</h2>
             <p className="p">
               Created by{" "}

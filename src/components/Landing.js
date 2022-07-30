@@ -30,7 +30,7 @@ const Landing = () => {
             </UpDesc>
             <HeadLine className="landingH1">
               The Last Revenge of Horse (TLRH) has 10,000+ NFTs<br></br> You can
-              always find which is best for you.
+              always find which is best for you
             </HeadLine>
           </top>
 

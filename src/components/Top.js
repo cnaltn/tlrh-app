@@ -24,7 +24,7 @@ const Top = () => {
       <container className="container">
         <top class="top1">
           Top Collections
-          <view className="view">View All</view>
+          {/* <view className="view">View All</view> */}
         </top>
         <grid className="gridTop">
           <gridchild className="childgrid">
@@ -34,13 +34,15 @@ const Top = () => {
                 <img alt="mini20" src={mini1}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
           <gridchild className="childgrid">
             <img alt="mini2" className="mini_" src={top2}></img>
@@ -49,13 +51,15 @@ const Top = () => {
                 <img alt="mini19" src={mini3}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
           <gridchild className="childgrid">
             <img alt="mini3" className="mini_" src={top6}></img>
@@ -64,13 +68,15 @@ const Top = () => {
                 <img alt="mini16" src={mini7}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
           <gridchild className="childgrid">
             <img alt="mini4" className="mini_" src={top4}></img>
@@ -79,13 +85,15 @@ const Top = () => {
                 <img alt="mini15" src={mini5}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
           <gridchild className="childgrid">
             <img alt="mini4" className="mini_" src={top1}></img>
@@ -94,13 +102,15 @@ const Top = () => {
                 <img alt="mini12" src={mini2}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
           <gridchild className="childgrid">
             <img alt="mini5" className="mini_" src={top7}></img>
@@ -109,13 +119,15 @@ const Top = () => {
                 <img alt="mini8" src={mini8}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
           <gridchild className="childgrid">
             <img alt="mini7" className="mini_" src={top3}></img>
@@ -124,13 +136,15 @@ const Top = () => {
                 <img alt="mini8" src={mini4}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
           <gridchild className="childgrid">
             <img alt="mini10" className="mini_" src={top5}></img>
@@ -139,13 +153,15 @@ const Top = () => {
                 <img alt="mini11" src={mini6}></img>
               </left>
               <right>
-                <mainhead className="mainhead">World of Women Galaxy</mainhead>
-                <desc>By Organization Woman</desc>
+                <mainhead className="mainhead">
+                  The Last Revenge of Horse
+                </mainhead>
+                <desc>By Fellowship of Mete Bilgili</desc>
               </right>
             </dsection>
 
             <price className="price">Price</price>
-            <amount className="amount">0.218 ETH</amount>
+            <amount className="amount">Check Marketplace</amount>
           </gridchild>
         </grid>
       </container>
