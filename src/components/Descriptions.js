@@ -16,7 +16,11 @@ const Descriptions = () => {
           </p>
         </div>
         <div>
-          <a className="opensea_button" href="#">
+          <a
+            className="opensea_button"
+            href="https://opensea.io/account"
+            target="_blank"
+          >
             JOIN THE HERD BY PURCHASING ON OPENSEA!
             <Icon className="opensea_icon" icon="simple-icons:opensea" />
           </a>
@@ -36,7 +40,11 @@ const Descriptions = () => {
           </p>
         </div>
         <div>
-          <a className="discord_button" href="#">
+          <a
+            className="discord_button"
+            href="https://discord.com"
+            target="_blank"
+          >
             JOIN THE REVENGE ON DISCORD
             <FaDiscord className="discord_icon"></FaDiscord>
           </a>
