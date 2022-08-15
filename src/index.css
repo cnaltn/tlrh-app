@@ -1,17 +1,54 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
+
   scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(70, 70, 70); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: greenyellow; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
 }
 
 body {
   max-width: 100%;
+  height: max-content;
   overflow-x: hidden;
+  background: #33cccc; /* Fallback */
+  animation: color 8s infinite linear;
 }
-
+@keyframes color {
+  0% {
+    background: #18181b;
+  }
+  20% {
+    background: #27272a;
+  }
+  40% {
+    background: #313138;
+  }
+  60% {
+    background: #313138;
+  }
+  80% {
+    background: #262626;
+  }
+  100% {
+    background: #171717;
+  }
+}
 a {
   text-decoration: none;
   color: inherit;

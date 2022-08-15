@@ -2,16 +2,145 @@
   display: flex;
   height: max-content;
   width: 100%;
-  background: #1f1d2b;
+  background: #18181b;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 50px;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.form_ {
+  display: flex;
+  align-items: center;
+}
+
+.send_button {
+  display: flex;
+  background: greenyellow;
+  height: 2rem;
+  align-items: center;
+  width: 4rem;
+  font-size: 1.5rem;
+
+  justify-content: center;
+  border: none;
+}
+
+.footerLogo {
+  color: white;
+  font-weight: 800;
+  font-size: 10rem;
+  letter-spacing: -8px;
+  line-height: 7.2rem;
+  width: max-content;
+  text-align: center;
+  height: max-content;
+}
+
+.flogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
 }
 
 .flistChild {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: max-content;
-  row-gap: 14px;
+  width: 256px;
+  row-gap: 1.25rem;
+}
+
+.flistChild a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.flistChild a:hover {
+  color: greenyellow;
+}
+
+.input_footer {
+  color: black;
+  height: 2rem;
+  width: 100%;
+  text-indent: 0.5rem;
+  caret-color: black;
+  border: 1px solid transparent;
+}
+
+.input_footer:focus {
+  border: 1px solid greenyellow;
+}
+
+.input_footer:hover {
+  border: 1px solid greenyellow;
+}
+
+.input_footer:focus-visible {
+  border-color: greenyellow;
+}
+
+.input_footer::placeholder {
+  color: black;
+  padding-left: 0.2rem;
+}
+
+.footer_geton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  row-gap: 1rem;
+}
+
+.footer_geton h2 {
+}
+
+.footer_geton2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+
+  align-items: flex-end;
+  width: 100%;
+  height: max-content;
+}
+
+.footer_socials {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+
+  justify-content: space-between;
+  color: white;
+}
+
+.socials_div {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: right;
+}
+
+.footer_socials a {
+  border: 2px solid white;
+  align-items: center;
+  display: flex;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.footer_socials a:hover {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+}
+
+.footer_socials a:hover {
+  transform: scale(1.1);
 }
 
 .fitems {
@@ -26,33 +155,36 @@
 
 .company {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 20px;
   width: max-content;
+
   /* Primary */
-  background: linear-gradient(to right, #73e0a9 0%, #5b68df 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 .flist {
-  display: grid;
-  grid-template-columns: 0fr 0fr 1fr 0fr;
-  justify-content: right;
+  justify-content: space-between;
   gap: 70px;
+  width: 100%;
+  display: flex;
 }
 
 .fleft {
-  display: grid;
-  width: 276px;
-  height: max-content;
-  gap: 18px;
+  display: flex;
+  order: -1;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  justify-content: center;
+  margin: 0 auto;
+  row-gap: 2rem;
 }
 
 .brandName {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 22px;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
 
   /* Whyte */
@@ -71,6 +203,8 @@
 
 .fmain {
   display: flex;
+  flex-direction: column;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -78,6 +212,7 @@
   display: flex;
   justify-content: center;
   padding-top: 5rem;
+  text-align: center;
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -89,29 +224,118 @@
 
 @media screen and (max-width: 1024px) {
   .flist {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    justify-content: space-between;
+  }
+  .fmain {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerPage {
+  }
+  .fleft {
+    row-gap: 0px;
+    order: -1;
+    margin: 0 auto;
+  }
+  .flistChild a {
+    font-size: 1.35rem;
+  }
+  .flistChild {
+    width: max-content;
+  }
+
+  .footerLogo {
+    font-size: 8rem;
+  }
+  .fmain {
+    row-gap: 5rem;
   }
 }
 
 @media screen and (max-width: 900px) {
   .flist {
+    display: grid;
     grid-template-columns: 0fr 0fr;
+    justify-content: space-between;
+  }
+  .fmain {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerPage {
+  }
+  .fleft {
+    row-gap: 0px;
+    order: -1;
+    margin: 0 auto;
+  }
+  .flistChild a {
+    font-size: 1.35rem;
+  }
+  .flistChild {
+    width: max-content;
+  }
+
+  .footerLogo {
+    font-size: 8rem;
+  }
+  .fmain {
+    row-gap: 5rem;
   }
 }
 
 @media screen and (max-width: 767px) {
   .fmain {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
+
+  .footerLogo {
+    font-size: 7rem;
+  }
+  .input_footer {
+    width: 100%;
+  }
+
   .flist {
-    grid-template-columns: 0fr 0fr 1fr 0fr;
-    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .flistChild a {
+    font-size: 1.1rem;
+  }
+  .socials_div a {
+    font-size: 0.8rem;
+  }
+
+  .socials_div {
+    gap: 0.3rem;
+  }
+
+  .flistChild {
+    width: max-content;
+  }
+  .brandName {
+    font-size: 1.25rem;
+  }
+  .fleft {
+    order: -1;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 610px) {
   .fmain {
-    display: grid;
-    justify-content: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_socials {
   }
 
   .footerPage {
@@ -119,11 +343,58 @@
   }
 
   .flist {
-    grid-template-columns: 0fr 0fr;
-    justify-content: left;
-    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   .fcpy {
     font-size: 12px;
+  }
+
+  .flistChild a {
+    font-size: 0.8rem;
+  }
+  .flistChild {
+    row-gap: 0.8rem;
+    width: max-content;
+    align-items: center;
+  }
+
+  .footerLogo {
+    font-size: 5rem;
+    letter-spacing: -4px;
+  }
+
+  .brandName {
+    font-size: 0.7rem;
+  }
+  .fleft {
+    row-gap: 0rem;
+    order: -1;
+    margin: 0 auto;
+  }
+  .input_footer {
+    width: 120px;
+  }
+
+  .footer_geton {
+    font-size: 0.6rem;
+    width: 100%;
+  }
+  .socials_div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 0.5rem;
+  }
+  .socials_div a {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+  .company {
+    font-size: 1rem;
+  }
+  .send_button {
+    width: 3rem;
   }
 }

@@ -1,15 +1,10 @@
 import React from "react";
 import "./gems.css";
-import Slider from "react-slick";
 import { Page } from "./Landing";
 import styled from "styled-components";
 import img_1 from "../image/top2.jpg";
 import img_2 from "../image/top9.jpg";
 import img_3 from "../image/top10.jpg";
-
-import ellipse from "../image/ellipse1.png";
-import ellipse2 from "../image/ellipse2.png";
-import ellipse3 from "../image/ellipse3.png";
 
 const Page_ = styled(Page)`
   align-items: start;

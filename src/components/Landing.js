@@ -26,11 +26,12 @@ const Landing = () => {
         <div className="container">
           <top className="landingTop">
             <UpDesc className="landingDesc">
-              Welcome to The Last Revenge of Horse (TLRH)
+              Welcome to The Last Revenge of Horses NFT club. (TLRH)
             </UpDesc>
             <HeadLine className="landingH1">
-              The Last Revenge of Horse (TLRH) has 10,000+ NFTs<br></br> You can
-              always find which is best for you
+              Join the herd of our vengeful horses and explore the meadows of
+              the metaverse. We’re on a path to build a community around a
+              shared interest of NFT’s, metaverse and gaming.
             </HeadLine>
           </top>
 
@@ -51,12 +52,12 @@ const Landing = () => {
             Learn More About TLRH
           </play> */}
         </div>
-        <right className="landingLogo">
+        {/* <right className="landingLogo">
           <img alt="landingimg" className="landingimg" src={landingLogo2}></img>
-        </right>
-        <bgg className="bgg">
+        </right> */}
+        {/* <bgg className="bgg">
           <img alt="bggimg" className="bggimg" src={bgg1}></img>
-        </bgg>
+        </bgg> */}
       </Page>
     </>
   );

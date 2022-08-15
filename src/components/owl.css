@@ -1,14 +1,22 @@
 .title {
 }
 .img {
-  height: 100px;
+  height: 220px;
   width: 50px;
-  border-radius: 35px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.img:hover {
+  width: 220px;
 }
 
 .section {
-  background-color: #1f1d2b;
+  background-color: transparent;
   padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .owl_ {
@@ -16,13 +24,13 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  height: max-content;
+  align-items: center;
   z-index: 66;
   width: 100%;
 }
 
 .container2 {
   max-width: 1440px;
-}
-
-.owl-carousel {
+  height: max-content;
 }

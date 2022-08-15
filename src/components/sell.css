@@ -1,8 +1,8 @@
 .sellgc {
-  width: 205px;
-  display: grid;
-  row-gap: 12px;
-  margin-top: 90px;
+  background-color: white;
+  padding: 10rem;
+  border-radius: 50%;
+  border: greenyellow 4px solid;
 }
 
 .sellH1 {
@@ -17,6 +17,9 @@
   color: #ffffff;
 }
 
+.top1 {
+}
+
 .sellP {
   font-weight: 300;
   font-size: 14px;
@@ -29,8 +32,10 @@
 
 .sellg {
   display: grid;
-  grid-template-columns: 0fr 0fr 0fr 0fr;
+  grid-template-columns: 0fr 0fr 0fr;
   justify-content: space-between;
+  row-gap: 5rem;
+  padding-bottom: 10rem;
 }
 
 .sellImg {
@@ -51,10 +56,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1110px) {
   .sellg {
     width: 100%;
-    grid-template-columns: 0fr 0fr 0fr;
+    grid-template-columns: 0fr 0fr;
   }
 }
 
@@ -65,7 +70,7 @@
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 730px) {
   .sellg {
     width: 100%;
     grid-template-columns: 0fr;

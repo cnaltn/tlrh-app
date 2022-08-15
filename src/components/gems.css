@@ -30,12 +30,12 @@
   width: 286px;
   height: 286px;
   border-radius: 35px;
-  border: 2px solid #73e0a9;
+  border: 2px solid white;
 }
 
 .gridchild {
   padding: 1rem 1rem;
-  border: 2px solid #73e0a9;
+  border: 2px solid white;
   border-radius: 35px;
 }
 
@@ -76,12 +76,13 @@
   display: flex;
   height: max-content;
   align-items: Center;
-  padding-top: 128px;
-  background-color: #1f1d2b;
+  padding-top: 10rem;
+  background-color: transparent;
 }
 
 .span {
   background: linear-gradient(to right, #73e0a9 0%, #5b68df 100%);
+  font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

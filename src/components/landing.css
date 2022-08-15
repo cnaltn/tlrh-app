@@ -10,7 +10,32 @@
 .landingPage {
   display: flex;
   height: max-content;
-  background-color: #1f1d2b;
+  background-color: transparent;
+}
+
+.gradient-background {
+  background: linear-gradient(
+    299deg,
+    #0f172a,
+    #1e293b,
+    #334155,
+    #475569,
+    #64748b
+  );
+  background-size: 300% 300%;
+  animation: gradient-animation 30s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .deneme {
@@ -29,7 +54,7 @@
 .button1 {
   padding: 12px 48px;
   color: white;
-  border: 3px solid #73e0a9;
+  border: 3px solid white;
   border-radius: 90px;
   transition: 0.3s all;
   font-weight: 600;
@@ -40,7 +65,7 @@
 .button2 {
   padding: 12px 50px;
   color: white;
-  border: 3px solid #73e0a9;
+  border: 3px solid white;
   border-radius: 90px;
   transition: 0.3s all;
   font-weight: 600;
@@ -49,11 +74,11 @@
 }
 
 .button1:hover {
-  border: 3px solid #5b68df;
+  border: 3px solid greenyellow;
 }
 
 .button2:hover {
-  border: 3px solid #5b68df;
+  border: 3px solid greenyellow;
 }
 
 .landingLogo {
@@ -80,7 +105,7 @@
 }
 
 .bgg {
-  position: absolute;
+  position: hidden;
   width: 100%;
   opacity: 0.7;
   height: max-content;
@@ -99,29 +124,34 @@
 
 .landingH1 {
   font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  z-index: 10;
+  /* Whyte */
+  color: #ffffff;
+  padding-top: 1rem;
+  width: 1300px;
+  opacity: 0.65;
+}
+
+.landingDesc {
+  font-weight: 700;
   font-size: 42px;
+  width: 1300px;
+  display: flex;
   line-height: 58px;
   color: White;
-  margin-top: 16px;
-  width: max-content;
   color: white;
   z-index: -1;
   z-index: 50;
 }
 
-.landingDesc {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  z-index: 10;
-  /* Whyte */
-  color: #ffffff;
-  width: max-content;
-  opacity: 0.5;
-}
-
 @media screen and (max-width: 1280px) {
   .landingH1 {
+    width: 100%;
+  }
+  .landingDesc {
     width: 100%;
   }
 }
@@ -129,18 +159,19 @@
 @media screen and (max-width: 1024px) {
   .landingH1 {
     width: 100%;
+    width: 100%;
+    font-size: 26px;
+    line-height: 36px;
   }
   .landingDesc {
-    width: 100%;
-  }
-  .landingimg {
-    display: none;
-  }
-  .landingH1 {
     width: 100%;
     font-size: 38px;
     line-height: 50px;
   }
+  .landingimg {
+    display: none;
+  }
+
   .landingTop {
     padding-top: 10rem;
   }
@@ -148,8 +179,12 @@
 
 @media screen and (max-width: 767px) {
   .landingH1 {
-    font-size: 33px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .landingDesc {
+    font-size: 30px;
+    line-height: 45px;
   }
 }
 
@@ -163,18 +198,23 @@
     margin-top: 64px;
   }
   .landingH1 {
-    font-size: 32px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .landingDesc {
+    font-size: 27px;
     line-height: 40px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .landingH1 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 17px;
+    line-height: 25px;
   }
   .landingDesc {
-    font-size: 17px;
+    font-size: 28px;
+    line-height: 40px;
   }
   .landingTop {
     padding-top: 8.2rem;

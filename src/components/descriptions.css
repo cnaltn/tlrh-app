@@ -1,0 +1,72 @@
+.desc_div {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.desc_sec {
+  display: flex;
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.opensea_button {
+  background-color: #2081e2;
+  display: flex;
+  width: 100%;
+  color: white;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.2s;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.discord_button:hover,
+.opensea_button:hover {
+  background: greenyellow;
+  color: rgb(32, 32, 32);
+}
+
+.opensea_icon {
+  font-size: 2rem;
+}
+
+.second_div h1,
+p {
+  color: white;
+}
+
+.second_div {
+  padding-top: 2rem;
+}
+
+.second_div h1 {
+  padding-bottom: 1rem;
+}
+.second_div p {
+  padding-bottom: 2rem;
+}
+
+.discord_button {
+  background-color: #7289da;
+  display: flex;
+  width: 100%;
+  color: white;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.2s;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.discord_icon {
+  font-size: 2rem;
+}

@@ -7,6 +7,7 @@ import Sell from "./components/Sell";
 import Top from "./components/Top";
 import Footer from "./components/Footer";
 import Owl from "./components/Owl";
+import Descriptions from "./components/Descriptions";
 
 const App = () => {
   return (
@@ -14,10 +15,10 @@ const App = () => {
       <Header></Header>
       <Landing></Landing>
       <Owl></Owl>
+      <Descriptions></Descriptions>
       <Gems></Gems>
       <Top></Top>
       <Sell></Sell>
-      <Discover></Discover>
       <Footer></Footer>
     </div>
   );

@@ -26,13 +26,13 @@ const Owl = () => {
         <div class=""></div>
         <div class="container2 owl-carousel owl-theme owl-loaded">
           <OwlCarousel
-            items={20}
+            items={10}
             autoWidth={true}
-            margin={10}
+            margin={20}
             autoplay={true}
             loop={true}
             autoplayTimeout={2000}
-            autoplaySpeed={4000}
+            autoplaySpeed={3000}
             slideTransition={"linear"}
             slideBy={1}
           >
