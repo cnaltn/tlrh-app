@@ -1,14 +1,13 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 .title {
 }
 .img {
-  height: 220px;
-  width: 50px;
-  border-radius: 5px;
-  display: flex;
-}
-
-.img:hover {
   width: 220px;
+  align-items: center;
+  border-radius: 5px;
+  gap: 20rem;
+  padding-right: 1rem;
 }
 
 .section {
@@ -19,18 +18,8 @@
   align-items: center;
 }
 
-.owl_ {
-  position: relative;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  height: max-content;
-  align-items: center;
-  z-index: 66;
-  width: 100%;
-}
-
 .container2 {
   max-width: 1440px;
   height: max-content;
+  width: 100%;
 }
