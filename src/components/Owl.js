@@ -43,37 +43,73 @@ const items = [
   />,
   <img
     className="img"
-    src={img_1}
+    src={img_4}
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     className="img"
-    src={img_2}
+    src={img_5}
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     className="img"
-    src={img_3}
+    src={img_6}
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     className="img"
-    src={img_1}
+    src={img_7}
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     className="img"
-    src={img_2}
+    src={img_8}
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     className="img"
-    src={img_3}
+    src={img_9}
+    onDragStart={handleDragStart}
+    role="presentation"
+  />,
+  <img
+    className="img"
+    src={img_10}
+    onDragStart={handleDragStart}
+    role="presentation"
+  />,
+  <img
+    className="img"
+    src={img_11}
+    onDragStart={handleDragStart}
+    role="presentation"
+  />,
+  <img
+    className="img"
+    src={img_12}
+    onDragStart={handleDragStart}
+    role="presentation"
+  />,
+  <img
+    className="img"
+    src={img_13}
+    onDragStart={handleDragStart}
+    role="presentation"
+  />,
+  <img
+    className="img"
+    src={img_14}
+    onDragStart={handleDragStart}
+    role="presentation"
+  />,
+  <img
+    className="img"
+    src={img_15}
     onDragStart={handleDragStart}
     role="presentation"
   />,

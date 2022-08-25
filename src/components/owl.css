@@ -3,10 +3,9 @@
 .title {
 }
 .img {
-  width: 220px;
+  width: 225px;
   align-items: center;
-  border-radius: 5px;
-  gap: 20rem;
+
   padding-right: 1rem;
 }
 
